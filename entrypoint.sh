@@ -14,7 +14,7 @@ fi
 if [[ -z "${V2_PATH}" ]]; then
   export ${V2_PATH}="s233"
 fi
-echo ${${V2_PATH}}
+echo ${V2_PATH}
 
 if [[ -z "${QR_PATH}" ]]; then
   export QR_PATH="/qr_img"
